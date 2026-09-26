@@ -17,3 +17,6 @@ A saved snapshot of project changes.
 
 ## Main Branch
 The primary branch used for development.
+## Project Goal
+
+This project explores the Iris dataset and Decision Tree classification.
