@@ -151,3 +151,53 @@ Feature scaling was fitted only on the training data and then applied to the tes
 A StandardScaler experiment was performed.
 
 Feature scaling changes the numerical scale of input features. It is important for distance-based and gradient-based models, but it is generally not necessary for Decision Tree classifiers because Decision Trees split based on feature thresholds rather than distances.
+
+# Phase 4A: Initial Decision Tree Model
+
+## Model Performance
+
+| Dataset | Accuracy |
+|----------|----------|
+| Training | 1.00 |
+| Validation | 0.93 |
+| Test | 0.87 |
+
+## Tree Properties
+
+- Tree Depth: 5
+- Number of Leaves: 8
+
+## Feature Importance
+
+| Feature | Importance |
+|----------|----------|
+| Sepal Length | 0.0042 |
+| Sepal Width | 0.0292 |
+| Petal Length | 0.5386 |
+| Petal Width | 0.4281 |
+
+## Visual Outputs
+
+- Decision Tree Visualization
+- Confusion Matrix
+
+## Observations
+
+The model achieved perfect training accuracy and strong validation accuracy. Petal length and petal width were the most important features for classification. The confusion matrix shows that most flower classes were classified correctly.
+
+## Decision Tree Concepts
+
+### Root Node
+The root node is the first decision point in the tree. In this model, the root node uses petal length to divide the dataset into different groups.
+
+### Internal Nodes
+Internal nodes are intermediate decision points that continue splitting the data based on feature values.
+
+### Branches
+Branches connect nodes and represent decision outcomes from a specific condition.
+
+### Leaf Nodes
+Leaf nodes are the final nodes of the tree. Each leaf represents the predicted class for samples reaching that node.
+
+### Gini Impurity
+Gini impurity measures how mixed the classes are within a node. A Gini value of 0 means that all samples in the node belong to a single class, making it a pure node.
