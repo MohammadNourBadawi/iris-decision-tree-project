@@ -53,6 +53,62 @@ No missing values were found in the dataset.
 - The dataset contains 150 samples.
 - There are 4 input features and 1 target column.
 - The dataset is clean and contains no missing values.
+### Dataset Description
+
+The Iris dataset contains 150 flower samples divided into three species:
+
+- Setosa (50 samples)
+- Versicolor (50 samples)
+- Virginica (50 samples)
+
+Each sample contains four numerical features:
+
+- Sepal Length
+- Sepal Width
+- Petal Length
+- Petal Width
+
+The target column represents the flower species.
+
+### Additional Observations
+
+- The dataset is perfectly balanced because each class contains 50 samples.
+- No missing values were detected.
+- Petal Length and Petal Width appear to provide better separation between classes.
+- Setosa samples are easier to distinguish from the other flower species.
+- Some overlap is expected between Versicolor and Virginica classes.
+- The dataset is clean and suitable for machine learning experiments.
+
+### Statistical Insights
+
+- Petal Length has the largest value range among the features.
+- Sepal Width shows noticeable variation between samples.
+- The absence of missing values means no data cleaning was required before analysis.
+- Feature values are measured on similar scales, making the dataset easy to inspect and visualize.
+
+### Visual Analysis
+
+The following visualizations were generated during dataset inspection:
+
+#### Class Distribution
+The dataset is balanced, with 50 samples in each class.
+
+#### Feature Distributions
+Histograms were used to examine the distribution of feature values and identify variations across measurements.
+
+#### Feature Boxplots
+Boxplots were used to compare feature ranges and detect potential outliers.
+
+#### Pairplot Analysis
+The pairplot provides a visual comparison between all feature combinations.
+
+Observations from the pairplot:
+
+- Setosa is clearly separated from the other classes.
+- Petal Length and Petal Width provide the strongest class separation.
+- Some overlap exists between Versicolor and Virginica.
+- A strong positive relationship can be observed between Petal Length and Petal Width.
+
 ## Phase 3: Data Preparation and Dataset Splitting
 
 ### Dataset Split Strategy
