@@ -1,4 +1,6 @@
 numpy
 pandas
 matplotlib
-scikit-lea*n
+seaborn
+jupyter
+scikit-learn
