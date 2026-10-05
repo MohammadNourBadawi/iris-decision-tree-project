@@ -204,3 +204,56 @@ Gini impurity measures how mixed the classes are within a node. A Gini value of 
 ## GitHub Web Edit Test
 
 This line was added directly from the GitHub web interface for Phase 5 synchronization testing.
+
+# Final Evaluation
+
+## Model Performance
+
+| Dataset | Accuracy |
+|----------|----------|
+| Training | 1.00 |
+| Validation | 0.93 |
+| Test | 0.87 |
+
+## Generalization Analysis
+
+The Decision Tree achieved perfect training accuracy and strong validation accuracy.
+
+The difference between training and validation performance suggests that the model may contain slight overfitting, but the validation and test results remain strong.
+
+Overall, the model demonstrates reasonable generalization on unseen data.
+
+## Future Improvements
+
+- Compare multiple Decision Tree depth configurations.
+- Apply cross-validation for more reliable evaluation.
+- Compare Decision Trees with other classification algorithms.
+# Setup Instructions
+
+## Requirements
+
+- Python 3.x
+- pandas
+- matplotlib
+- scikit-learn
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+
+```markdown # Execution Instructions Run dataset inspection: ```bash python explore_data.py
+
+# Execution Instructions
+
+Run dataset exploration:
+
+```bash
+python explore_data.py
+
+Run Decision Tree training:
+ 
+```bash
+python train_decision_tree.py
+```
+```markdown # Limitations - Only the Iris dataset was used. - The dataset contains a limited number of samples. - Only a Decision Tree classifier was tested. # Reflection This project improved my understanding of Git, GitHub, dataset analysis, data preparation, Decision Trees, and machine learning evaluation. I also gained practical experience in documenting and organizing a reproducible AI project.
