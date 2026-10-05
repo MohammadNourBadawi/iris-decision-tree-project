@@ -256,4 +256,12 @@ Run Decision Tree training:
 ```bash
 python train_decision_tree.py
 ```
-```markdown # Limitations - Only the Iris dataset was used. - The dataset contains a limited number of samples. - Only a Decision Tree classifier was tested. # Reflection This project improved my understanding of Git, GitHub, dataset analysis, data preparation, Decision Trees, and machine learning evaluation. I also gained practical experience in documenting and organizing a reproducible AI project.
+# Limitations
+
+- Only the Iris dataset was used.
+- The dataset contains a limited number of samples.
+- Only a Decision Tree classifier was tested.
+
+# Reflection
+
+This project improved my understanding of Git, GitHub, dataset analysis, data preparation, Decision Trees, and machine learning evaluation. I also gained practical experience in documenting and organizing a reproducible AI project.
