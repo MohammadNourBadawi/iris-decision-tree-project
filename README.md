@@ -256,7 +256,7 @@ Run Decision Tree training:
 ```bash
 python train_decision_tree.py
 
-```
+
 # Limitations
 
 - Only the Iris dataset was used.
