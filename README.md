@@ -242,7 +242,7 @@ Overall, the model demonstrates reasonable generalization on unseen data.
 ```bash
 pip install -r requirements.txt
 
-```markdown # Execution Instructions Run dataset inspection: ```bash python explore_data.py
+```
 
 # Execution Instructions
 
